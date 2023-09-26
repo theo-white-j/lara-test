@@ -18,10 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
-
-
-/*prfix /blog*/
+/* my test */
+/*prefix /blog*/
 Route::prefix('/blog')->group(function(){
 /* Route::prefix('/blog')->name('blog.')->group(function(){ */ /* prefix nom des route */
     /* Simple route use a url param */
